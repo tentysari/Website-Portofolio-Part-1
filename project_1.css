@@ -1,0 +1,161 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*style */
+
+body {
+	font: 16px/26px arial, sans-serif;
+	background-color: lightpink;
+}
+
+.container {
+	width: 800px;
+	margin: auto;
+	background-color: #eaeaea;
+}
+
+.header, .content {
+	padding: 20px;
+}
+.header h2 {
+	font-size: 35px;
+	font-display: bold;
+	margin-bottom: 20px;
+
+}
+
+.header ul li {
+	display: inline-block;
+
+}
+
+.header a {
+	color: salmon;
+	text-decoration: none;
+	padding: 5px;
+}
+
+.header a:hover{
+	background-color: lightskyblue;
+	color: white;
+	font-size: 15px;
+}
+
+.hero {
+	background-color: green;
+	height: 250px;
+	background-image: url(bg_header.png);
+	background-size: cover;
+	border-top: 5px solid salmon;
+	border-bottom: 5px solid lightskyblue;
+}
+
+.penulis h2 {
+	font-size: 25px;
+	font-display: bold;
+}
+
+.penulis a {
+	color: salmon;
+	text-decoration: none;}
+
+.penulis a:hover{
+	background-color: lightskyblue;
+	color: white;
+}
+
+.penulis p {
+	font-size: 11px;
+	margin-top: -5px;
+}
+
+.isi p {
+	margin-bottom: 10px;
+	font-size: 13px;
+	text-align: justify;
+
+}
+
+.footer {
+	background-color: salmon;
+	padding: 10px;
+}
+
+.footer p {
+	text-align: center;
+	color: whitesmoke;
+	font-size: 14px;
+}
+
+.deco1 {
+	height: 30px;
+	width: 30px;
+	background-image: url(flower.png);
+	background-size: cover;
+	margin-top: -200px;
+	margin-left: 410px;
+}
+
+.deco2 {
+	height: 30px;
+	width: 30px;
+	background-image: url(flower.png);
+	background-size: cover;
+	margin-top: -300px;
+	margin-left: 410px;
+}
+
+.deco3 {
+	height: 30px;
+	width: 30px;
+	background-image: url(flower.png);
+	background-size: cover;
+	margin-top: -200px;
+	margin-left: 121f0px;
+}
